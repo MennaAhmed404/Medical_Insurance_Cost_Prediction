@@ -138,9 +138,9 @@ The best model was selected according to Cross Validation performance.
 
 | Metric | Score |
 |--------|-------:|
-| R² Score | **0.8780** |
-| MAE | **2476.20** |
-| RMSE | **4352.02** |
+| R² Score | **0.8782** |
+| MAE | **2486.82** |
+| RMSE | **4348.42** |
 
 ---
 
@@ -239,12 +239,13 @@ If it doesn't open automatically, copy and paste the link into your browser.
 
 The notebooks document the complete machine learning workflow:
 
-1. Business Understanding
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Modeling & Hyperparameter Tuning
-6. Final Model Evaluation
+01_Business_Data_Understanding.ipynb
+02_Data_Cleaning_analysis.ipynb
+03_Exploratory_Data_Analysis.ipynb
+04_Feature_Engineering_Selection_analysis.ipynb
+05_Modeling_Pipeline[best_model_and_best_preprocessor].ipynb
+06_HyperparameterTunning_and_Train&EvlauateFinalModel.ipynb
+07-VisualizeModelResult_and_FeatureImportance&Shape.ipynb
 
 ---
 
