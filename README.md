@@ -270,15 +270,7 @@ If it doesn't open automatically, copy and paste the link into your browser.
 
 ## 📒 Notebooks
 
-The notebooks document the complete machine learning workflow:
-
-01_Business_Data_Understanding.ipynb
-02_Data_Cleaning_analysis.ipynb
-03_Exploratory_Data_Analysis.ipynb
-04_Feature_Engineering_Selection_analysis.ipynb
-05_Modeling_Pipeline[best_model_and_best_preprocessor].ipynb
-06_HyperparameterTunning_and_Train&EvlauateFinalModel.ipynb
-07-VisualizeModelResult_and_FeatureImportance&Shape.ipynb
+The notebooks document the complete machine learning workflow, from data understanding and preprocessing to modeling, evaluation, and model interpretability.
 
 ---
 
