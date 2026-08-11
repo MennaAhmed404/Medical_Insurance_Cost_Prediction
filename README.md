@@ -176,7 +176,7 @@ R² Score: 0.8782
 
 ---
 
-## 🔍 Model Explainability
+##  🔍 Model Explainability
 
 Model interpretation was performed using:
 
@@ -188,7 +188,7 @@ Model interpretation was performed using:
 - SHAP Bar Plot
 - SHAP Waterfall Plot
 
-###🔍 Main Insights
+### 🔍 Main Insights
 Smoking status is the most influential factor affecting medical insurance charges, with smokers generally having significantly higher charges.
 BMI and Age have a strong impact on insurance charges, particularly when combined with smoking status.
 The relationship between BMI and charges differs substantially by smoking status.
