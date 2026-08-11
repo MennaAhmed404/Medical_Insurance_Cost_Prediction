@@ -1,0 +1,25 @@
+# not exist missing values 
+
+# //    //  outliers
+
+# //    //  duplicates
+
+# //    //  incorrect data
+---------------------------------
+1-Encoding 
+sex -> nominal
+smoker -> binary
+region ->nominal
+bmi_category ->nominal
+
+
+2-scaling 
+age ,children ,and bmi -->yes or no according to model
+may be exist two pipeline
+
+
+3-log transformation to target bacause is hight right skew (Experiment) then used np.expm1()
+
+
+4-binning to bmi
+may be more than pipeline to check deletion or not
