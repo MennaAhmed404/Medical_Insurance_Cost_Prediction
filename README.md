@@ -88,15 +88,18 @@ Key Findings:
 
 ### 4. Feature Engineering
 
-Implemented:
+Implemented and evaluated:
 
-- BMI Category Binning
-- One-Hot Encoding
-- Feature Selection
-- Multiple preprocessing pipelines
-- Comparison between BMI and BMI Category
-- Scaling experiments
-- Log transformation experiments
+BMI Category Binning
+Age Category Binning
+One-Hot Encoding for categorical features
+Feature Selection and Preprocessor Comparison
+BMI vs. BMI Category Comparison
+BMI × Smoker Interaction Experiment
+Target Transformation using log1p(charges)
+Selected the final feature set based on R² performance
+
+Final selected engineered features: bmi_category and age_category.
 
 ---
 
@@ -121,16 +124,45 @@ Hyperparameter optimization was performed using **Optuna**.
 The best model was selected according to Cross Validation performance.
 
 ---
+### 7. Model Results & Interpretability
 
+Implemented:
+
+Actual vs. Predicted Charges Visualization
+Residual Analysis
+Residual Distribution
+Feature Importance Analysis
+SHAP Analysis for model interpretability
+Visualization of Feature Impact on Predictions
+Evaluated the model's performance and interpreted the factors influencing insurance charges.
+
+---
 ## 🏆 Final Model
 
-**Model:** Random Forest Regressor
+Model: Random Forest Regressor
 
-**Pipeline Components**
+Final Pipeline Components:
 
-- One-Hot Encoding
-- ColumnTransformer
-- Random Forest Regressor
+Feature Engineering
+BMI Category
+Age Category
+ColumnTransformer
+One-Hot Encoding for categorical features
+Passthrough for numerical features
+Random Forest Regressor
+
+Final Features:
+
+age
+bmi
+children
+sex
+smoker
+region
+bmi_category
+age_category
+
+R² Score: 0.8782
 
 ---
 
@@ -156,11 +188,12 @@ Model interpretation was performed using:
 - SHAP Bar Plot
 - SHAP Waterfall Plot
 
-### Main Insights
-
-- Smoking status is the most influential feature.
-- BMI and Age significantly affect insurance charges.
-- Region and Sex have relatively small influence.
+###🔍 Main Insights
+Smoking status is the most influential factor affecting medical insurance charges, with smokers generally having significantly higher charges.
+BMI and Age have a strong impact on insurance charges, particularly when combined with smoking status.
+The relationship between BMI and charges differs substantially by smoking status.
+BMI Category and Age Category provided useful additional information and were retained in the final feature set.
+Region and Sex have relatively lower influence compared with smoking status, BMI, and age.
 
 ---
 
