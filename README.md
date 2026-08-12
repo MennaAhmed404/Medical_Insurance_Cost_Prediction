@@ -272,6 +272,13 @@ The notebooks document the complete machine learning workflow, from data underst
 
 ---
 
+## 🌐 Live Demo
+
+Try the deployed application:
+
+[Medical Insurance Cost Prediction](https://medicalinsurancecostprediction-etkfnxcdc9wgp63kfv82nn.streamlit.app/)
+
+---
 
 ## 👩‍💻 Author
 
