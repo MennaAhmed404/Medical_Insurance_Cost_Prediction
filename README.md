@@ -202,7 +202,6 @@ Region and Sex have relatively lower influence compared with smoking status, BMI
 ```text
 Medical Cost Project/
 │
-├── .vscode/                             # VS Code settings
 │
 ├── data/
 │   └── insurance.csv                    # Original dataset
@@ -226,7 +225,6 @@ Medical Cost Project/
 │   ├── Data_preprocessing.py                 # Data loading and preprocessing
 │   ├── Feature_Engineering.py           # Feature engineering functions
 │   ├── best_preprocessor.py                     # Model training pipeline
-│   └── __pycache__/
 │
 ├── Decisions.txt                        # Project decisions and notes
 ├── requirements.txt                     # Project dependencies
