@@ -8,7 +8,7 @@ An end-to-end Machine Learning project for predicting individual medical insuran
 
 The goal of this project is to predict medical insurance charges based on personal attributes such as age, BMI, smoking status, and region.
 
-This project follows a complete Machine Learning workflow from data understanding to model deployment preparation.
+This project follows a complete Machine Learning workflow from data understanding and preprocessing to model development, evaluation, interpretability, and deployment.
 
 ---
 
@@ -90,14 +90,13 @@ Key Findings:
 
 Implemented and evaluated:
 
-BMI Category Binning
-Age Category Binning
-One-Hot Encoding for categorical features
-Feature Selection and Preprocessor Comparison
-BMI vs. BMI Category Comparison
-BMI × Smoker Interaction Experiment
-Target Transformation using log1p(charges)
-Selected the final feature set based on R² performance
+- BMI Category Binning
+- Age Category Binning
+- One-Hot Encoding
+- Feature Selection and Preprocessor Comparison
+- BMI vs. BMI Category Comparison
+- BMI × Smoker Interaction Experiment
+- Target Transformation using log1p(charges)
 
 Final selected engineered features: bmi_category and age_category.
 
